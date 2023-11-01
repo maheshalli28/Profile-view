@@ -1,0 +1,112 @@
+
+body {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  
+
+}
+.banner{  
+  width: 100%;
+  height: auto;
+  margin: 0;
+  
+}
+
+.image{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+  
+}
+
+@media screen and(min-width:600px){
+  .social-link{
+    font-size:10px;
+  }  
+}
+
+.social-link {
+  margin-top: 10%;
+  width: 75%;
+  height: auto;
+  border-radius:20px;
+  margin-bottom: 10%;
+}
+
+.linkedin-link, .github-link, .instagram-link, .snapchat-link , .resume-link{
+  display: block;
+  background-color: #0077B5; 
+  color: hsla(0, 0%, 100%, 0.951);
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-decoration: none;
+  border-radius: 60px;
+  font-size: 50px;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin-bottom: 20%;
+  margin-left: 25%;
+  box-shadow: 2px 2px 5px rgba(1, 2, 2, 12);
+  font-weight: bold;
+
+
+}
+.resume-link{
+    background-color: cadetblue;
+}
+
+.github-link {
+  background-color: #333; /* GitHub gray */
+
+  
+}
+
+.instagram-link {
+  background-color: #E4405F; /* Instagram pink */
+  font-family: 'Cursive', sans-serif;
+}
+
+.snapchat-link {
+  background-color: #FFFC00; /* Snapchat yellow */
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.social-link a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.text{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin: 1;
+    padding-top:0;
+  
+}
+.logo {
+    width:10%; 
+    height:auto;
+    margin: 0 auto;
+    vertical-align: text-bottom;
+
+}
+.inner-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(11, 11, 11);
+    background-color: rgba(14, 13, 13, 0.222);
+    margin:0;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
